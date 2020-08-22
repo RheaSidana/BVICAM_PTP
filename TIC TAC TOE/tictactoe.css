@@ -1,0 +1,80 @@
+#Game{
+    background-color:black;
+    padding:10px;
+    color:blue;
+    font-style:bold;
+}
+.displeft{
+    float:left;
+    width:65%;
+    height:40px;
+    padding-left:10px;
+    color:yellow;
+}
+.dispright{
+    height:40px;
+    padding-top:10px;
+}
+#yes{
+    background-color:green;
+    height:30px;
+}
+#no{
+    background-color:red;
+    height:30px;
+    padding-right:8px;
+}
+#Symbol{
+    display:none;
+   color:pink;
+   height:30px;
+   padding-left:30px;
+}
+.SButton{
+    width:30%;
+    float:right;
+    padding-right:15px;
+}
+.SymbolB{
+    background-color:#8A2BE2;
+    height:30px;
+    padding-left:14px;
+    padding-right:14px;
+}
+#players{
+    display:none;
+}
+#p1{
+    width:50%;
+    float:left;
+    padding-left:40px;
+    color:red;
+}
+#p2{
+    padding-left:10px;
+    color:red;
+}
+.Play{
+    padding:33px;
+}
+.GButton{
+    height:60px;
+    width:70px;
+    background-color:yellow;
+}
+#gameButton{
+    display:none;
+}
+#Winner{
+    display:none;
+    color:red;
+}
+#won{
+    color:red;
+}
+#NGame{
+    background-color:blue;
+    color:yellow;
+    display:none;
+}
+
