@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe Game</title>
+    </head>
+    <body>
+        <div id="Game" >
+            <center>
+                <div>
+                    <h1>TIC TAC TOE</h1>
+                </div>
+            </center>
+            <div id="Starting">
+                <div class="displeft">
+                    <p align="center"><strong>Start Game?</strong></p>
+                </div>
+                <div class=dispright>
+                <input type="button" id="yes" value="YES">
+                <input type="button" id="no" value="NO">
+                </div>
+            </div>
+            <div id="Symbol">
+                <strong>What would you like?</strong>
+                <div class="SButton">
+                <input type="button" id="zero" value="0" class="SymbolB">
+                <input type="button" id="cross" value="X" class="SymbolB">
+                </div>
+            </div>
+            <div id="players">
+                <div id="p1">
+               <span id="player1"></span>
+                </div>
+                <div id="p2">
+                    <span id="player2"></span>
+                </div>
+            </div>
+            <div class="Play">
+                <center>
+                <div id="gameButton">
+                    <input type="button" id="B11" value=" " class="GButton">
+                    &nbsp;
+                    <input type="button" id="B12" value=" " class="GButton">
+                    &nbsp;
+                    <input type="button" id="B13" value=" " class="GButton">
+                    <br/><br/>
+                    <input type="button" id="B21" value=" " class="GButton">
+                    &nbsp;
+                    <input type="button" id="B22" value=" " class="GButton">
+                    &nbsp;
+                    <input type="button" id="B23" value=" " class="GButton">
+                    <br/><br/>
+                    <input type="button" id="B31" value=" " class="GButton">
+                    &nbsp;
+                    <input type="button" id="B32" value=" " class="GButton">
+                    &nbsp;
+                    <input type="button" id="B33" value=" " class="GButton">
+                </div>
+                <br/>
+                <div id="Winner">
+                    <strong>WINNER: </strong>
+                    <span id="won"></span>
+                </div>
+                <div>
+                    <input type="button" value="New Game" id="NGame">
+                </div>
+                </center>
+            </div>
+        </div>
+    </body>
+</html>
